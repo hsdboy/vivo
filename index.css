@@ -15,11 +15,13 @@ body {
     margin: 0 auto;
     padding-bottom: 40px;
 }
-.header{
+
+.header {
     width: 100%;
     height: 44px;
     background: #2f2f2f;;
 }
+
 .header-box {
     width: 1200px;
     height: 44px;
@@ -179,7 +181,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     color: #333;
-position: relative;
+    position: relative;
 }
 
 .phone-item {
@@ -189,20 +191,23 @@ position: relative;
     text-align: center;
     font-weight: 400;
 }
-.phone-item img{
+
+.phone-item img {
     display: block;
     width: 230px;
     height: 230px;
     margin: 58px auto 0 auto;
 
 }
-.phone-item .text-big{
+
+.phone-item .text-big {
     width: 100%;
     height: 56px;
     padding-top: 28px;
     font-size: 20px;
 }
-.phone-item .text-small{
+
+.phone-item .text-small {
     width: 100%;
     line-height: 24px;
     padding-top: 11px;
@@ -210,12 +215,13 @@ position: relative;
     font-size: 14px;
 }
 
-.phone-item .text-money{
+.phone-item .text-money {
     line-height: 30px;
     font-size: 18px;
-    color:red;
+    color: red;
 }
-.big-text .more{
+
+.big-text .more {
     position: absolute;
     right: 0;
     top: 48px;
@@ -223,25 +229,29 @@ position: relative;
     color: #333333;
     margin-left: 22px;
 }
-.big-text .more:nth-child(2){
+
+.big-text .more:nth-child(2) {
     position: absolute;
     right: 62px;
     top: 48px;
     margin-left: 22px;
 }
-.big-text .more:nth-child(3){
+
+.big-text .more:nth-child(3) {
     position: absolute;
     right: 156px;
     top: 48px;
     margin-left: 22px;
 }
-.big-text .more:nth-child(4){
+
+.big-text .more:nth-child(4) {
     position: absolute;
     right: 278px;
     top: 48px;
     margin-left: 22px;
 }
-.phone-box{
+
+.phone-box {
     width: 100%;
     height: 780px;
     display: flex;
@@ -249,61 +259,71 @@ position: relative;
     flex-flow: wrap;
 
 }
-.phone-box img{
+
+.phone-box img {
     display: block;
     width: 595px;
     height: 380px;
 }
-.phone-box .phone{
+
+.phone-box .phone {
     width: 293px;
     height: 380px;
     text-align: center;
     background-color: white;
-   /* overflow: hidden;*/
+    /* overflow: hidden;*/
 }
-.phone img{
+
+.phone img {
     display: block;
     width: 172px;
     height: 172px;
     margin: 43px 63px 0 63px;
 }
- .phone .big{
+
+.phone .big {
     width: 100%;
-     height: 54px;
+    height: 54px;
     line-height: 44px;
 
     padding-top: 19px;
-     font-size: 17px;
+    font-size: 17px;
 }
-.phone .small{
+
+.phone .small {
     width: 100%;
     height: 59px;
     line-height: 24px;
     padding: 6px 0 29px 0;
     font-size: 12px;
 }
- .phone .money{
+
+.phone .money {
     width: 100%;
     height: 28px;
-     line-height: 20px;
-     font-size: 15px;
-     color: red;
+    line-height: 20px;
+    font-size: 15px;
+    color: red;
 }
-.bottom{
+
+.bottom {
     width: 100%;
     background-color: white;
 }
+
 .bottom-box {
     width: 1200px;
     margin: 0 auto;
 }
-.bottom-box .first{
+
+.bottom-box .first {
     width: 100%;
     height: 189px;
     padding-top: 30px;
     padding-bottom: 70px;
 }
-.bottom-box .first .first-box{
+
+.bottom-box .first .first-box {
     width: 100%;
     height: 89px;
 
@@ -313,16 +333,19 @@ position: relative;
     display: flex;
     justify-content: space-around;
 }
-.bottom-box .first a{
+
+.bottom-box .first a {
     color: #333;
     font-size: 18px;
 }
-.bottom-box .second{
+
+.bottom-box .second {
     width: 100%;
     height: 260px;
     position: relative;
 }
-.bottom-box .second ul:nth-child(1){
+
+.bottom-box .second ul:nth-child(1) {
     width: 80%;
     height: 172px;
     display: flex;
@@ -330,19 +353,20 @@ position: relative;
     margin-left: -40px;
 }
 
-.bottom-box .second ul:nth-child(2){
+.bottom-box .second ul:nth-child(2) {
     height: 172px;
     position: absolute;
-right: 0;
+    right: 0;
     top: 0;
     text-align: right;
 }
 
-.bottom-box .second li{
+.bottom-box .second li {
     display: block;
     list-style: none;
 }
-.bottom-box .second a{
+
+.bottom-box .second a {
     display: block;
     width: 157px;
     font-weight: 400;
@@ -350,22 +374,26 @@ right: 0;
     font-size: 12px;
     color: #333333;
 }
-.bottom-box .second ul:nth-child(1) li a:nth-child(1){
-   font-weight: 600;
+
+.bottom-box .second ul:nth-child(1) li a:nth-child(1) {
+    font-weight: 600;
 }
-.bottom-box .second li a:nth-child(2){
+
+.bottom-box .second li a:nth-child(2) {
     display: block;
     height: 38px;
     padding-top: 15px;
 }
-.bottom-box .second .winter{
+
+.bottom-box .second .winter {
     line-height: 24px;
     font-size: 24px;
     color: #008ddc;
     font-weight: 400;
     text-align: right;
 }
-.bottom-box .second ul:nth-child(2) li a:nth-child(2){
+
+.bottom-box .second ul:nth-child(2) li a:nth-child(2) {
     display: block;
     height: 50px;
     line-height: 24px;
@@ -376,38 +404,57 @@ right: 0;
     padding-bottom: 6px;
     color: #333333;
 }
-.bottom-box .second ul:nth-child(2) li a{
+
+.bottom-box .second ul:nth-child(2) li a {
     display: block;
     width: 172px;
     margin-right: 0;
 }
-.bottom-box .second ul:nth-child(2) li a:nth-child(3){
+
+.bottom-box .second ul:nth-child(2) li a:nth-child(3) {
     color: #aaa;
     font-size: 12px;
 }
-.bottom-box .third{
+
+.bottom-box .second ul:nth-child(2) li a:nth-child(1) {
+    background: url("winter.png") no-repeat 25px center;
+
+}
+
+.bottom-box .third {
     width: 100%;
     padding-top: 35px;
+    padding-bottom: 35px;
     font-size: 12px;
     position: relative;
     color: #333333;
 }
 
-.bottom-box .third .right{
+.bottom-box .third .right {
     width: 180px;
     position: absolute;
     right: 0;
     top: 35px;
 }
-.bottom-box .third a{
+
+.bottom-box .third a {
     font-size: 10px;
     color: #333333;
 }
-.bottom-box .third .right a{
+
+.bottom-box .third .right a {
+    display: block;
     float: right;
     width: 90px;
     line-height: 16px;
     font-size: 12px;
-    text-align: right;
+    border-right: 1px solid #66666688;
+    text-align: center;
     color: #666666;
+}
+
+.bottom-box .third .right a:nth-child(1) {
+    text-align: right;
+    border-right: none;
+    background: url("earth.png") no-repeat 45px center;
 }
